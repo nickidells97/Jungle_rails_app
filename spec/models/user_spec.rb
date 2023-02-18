@@ -93,6 +93,5 @@ RSpec.describe User, type: :model do
       saved_user = User.authenticate_with_credentials(user.email + " ", user.password)
       expect(saved_user.id).to be_present
     end
-    
   end
 end
