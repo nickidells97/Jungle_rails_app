@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 describe('Jungle_rails_app', () => {
 
   it("It clicks on a product link from the home page", () => {
